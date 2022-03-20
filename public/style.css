@@ -1,0 +1,50 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 10vh;
+    height: 10vh;
+}
+
+.message__area{
+    max-width: 90vh;
+    background-color: blue;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 12px;
+    /* float: incoming;
+    clear: both;
+    float: outgoing;
+    clear: both; */
+}
+body{
+    background-image: linear-gradient(rgb(144, 150, 235),rgb(180, 147, 240));
+}
+.message{
+    background-color: gray;
+    width: 35vh;
+    margin: 0.5%;
+    border: 2px solid gainsboro;
+    border-radius: 0.8vh;
+}
+.left{
+    float: incoming;
+    clear: both;
+}
+.right{
+    float: outgoing;
+    clear: both;
+}
+.send-container{
+    text-align: center;
+}
+#textarea{
+    width: 48%;
+    max-width: 90vh;
+    border-radius: 6px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
